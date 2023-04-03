@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naviguer dans les branches</title>
+</head>
+
+<body>
+    <div align="center"> <img src="images/git-github.png" alt="logo git et github"></div>
+
+    <H1>Naviguer dans les branches</H1>
+
+    <div id="paragraphe">Création d’une branche</div>
+    <div id="code">git branch dev</div>
+
+    <div id="paragraphe">Se déplacer dans la branche</div>
+    <div id="code">git checkout dev </div>
+
+    <div id="paragraphe">Afficher les branches</div>
+    <div id="paragraphe">Remarque: une étoile apparaît devant la branche en cours</div>
+    <div id="code">git branch</div>
+
+    <div id="paragraphe">Supprime une branche</div>
+    <div id="paragraphe">Remarque: on ne peut pas supprimer une branche dont les sauvegardes n'ont pas été rassemblées
+    </div>
+    <div id="code">git branch -d dev</div>
+
+    <div align="center"> <img src="images/git-branch.png" alt="logo git et github"></div>
+
+    <div id="paragraphe">Affichage léger avec un commit par ligne et arborescence des branches</div>
+    <div id="code">git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold
+        green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all</div>
+
+    <div align="center">
+        <a href="page4.html">precedant</a>
+        <a href="page6.html">suivant</a>
+    </div>
+</body>
+
+</html>
