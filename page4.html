@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afficher les versions sauvegardées</title>
+</head>
+
+<body>
+    <div align="center"> <img src="images/git-github.png" alt="logo git et github"></div>
+
+    <H1>Afficher les versions sauvegardées</H1>
+
+    <div id="paragraphe">Affiche l’historique des versions</div>
+    <div id="code"> git log</div>
+
+    <div id="paragraphe">Affiche seulement les 5 dernières sauvegardes</div>
+    <div id="code">git log -n 5</div>
+
+    <div id="paragraphe">Affichage simple avec un commit par ligne </div>
+    <div id="code">git log --graph --abbrev-commit --pretty=format:"%h - %s (%ad) <%an>" </div>
+    
+    <div align="center">
+        <a href="page3.html">precedant</a>
+        <a href="page5.html">suivant</a>
+    </div>
+</body>
+
+</html>
