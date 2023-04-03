@@ -10,16 +10,34 @@ p {
     color: rgb(50, 50, 50);
     font-size: 16px;
     line-height: 1.5;
+    text-align: left;
 }
 
 img {
     width: 300px;
     height: auto;
     display: inline-block;
+
+}
+
+h1{
+    color: rgb(50, 50, 50);
+    font-size: 26px;
+    line-height: 1.5;
+    text-align: center;
 }
 
 div {
-    text-align: center;
+    color: rgb(50, 50, 50);
+    font-size: 16px;
+    line-height: 1.5;
 }
+
+#code {
+
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+
 
 
