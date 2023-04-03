@@ -1,13 +1,11 @@
 body {
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
     color: #202020;
 }
 
 p {
     color: rgb(50, 50, 50);
+    font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     text-align: left;
@@ -17,27 +15,29 @@ img {
     width: 300px;
     height: auto;
     display: inline-block;
-
 }
 
-h1{
+h1 {
     color: rgb(50, 50, 50);
+    font-family: Arial, sans-serif;
     font-size: 26px;
     line-height: 1.5;
     text-align: center;
 }
 
-div {
+#paragraphe {
     color: rgb(50, 50, 50);
-    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
     line-height: 1.5;
+    text-align: left;
 }
+
 
 #code {
-
     color: rgb(255, 255, 255);
+    font-family: Courier, monospace;
     background-color: #000000;
+    line-height: 1.5;
+    text-align: left;
 }
-
-
-
