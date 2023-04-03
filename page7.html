@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Synchonisation GitHub </title>
+</head>
+
+<body>
+    <img id="imgTitre" src="images/git-github.png" alt="logo git et github">
+
+    <H1> Synchonisation GitHub </H1>
+
+    <div id="paragraphe">La commande git remote add est utilisée pour ajouter un dépôt distant Git à votre référentiel
+        Git local. La syntaxe complète de cette commande est git remote add <nom>
+            <URL>, où <nom> est le nom que vous donnez au dépôt distant et <URL> est l'URL du dépôt distant que vous
+                        voulez ajouter.</div>
+    <div id="code">git remote add origin &lt;URL-du-dépôt-GitHub> </div>
+
+    <div id="paragraphe">Pour récupérer l'URL d'un dépôt GitHub existant, vous pouvez suivre ces étapes :
+        <ol>
+            <li>Ouvrez GitHub dans votre navigateur et connectez-vous à votre compte.</li>
+            <li>Accédez au dépôt dont vous voulez récupérer l'URL. </li>
+            <li>Cliquez sur le bouton vert "Code" en haut à droite du dépôt. </li>
+            <li>Dans le menu déroulant, sélectionnez "HTTPS" ou "SSH", en fonction de la méthode que vous voulez
+                utiliser pour cloner le dépôt.</li>
+            <li>Cliquez sur le bouton "Copier" à côté de l'URL affichée pour copier l'URL dans votre presse-papiers.
+            </li>
+        </ol>
+
+        La commande git remote -v est un moyen pratique d'afficher les informations sur les référentiels distants
+        connectés à votre référentiel local, ce qui peut être utile pour suivre et gérer vos projets Git.
+    </div>
+    <div id="code">git push -u origin master <URL-du-dépôt-GitHub> </div>
+
+    <div id="paragraphe">la commande git push -u origin master pousse la branche locale "master" vers la branche
+        principale du référentiel distant nommé "origin". Elle définit également la branche distante comme branche de
+        suivi pour la branche locale. Cette commande est généralement utilisée lors du premier push vers un nouveau
+        référentiel distant, mais peut également être utilisée ultérieurement pour mettre à jour la branche principale
+        du référentiel distant avec les modifications locales.</div>
+    <div id="code">git push -u origin master </div>
+
+    <div id="paragraphe">Une fois utilisée on peut utiliser la commande $ git push seul, il n’est plus nécessaire de
+        spécifier la branche a
+        synchroniser.</div>
+    <div id="code">git push</div>
+    
+    <div align="center">
+        <a href="page6.html">precedant</a>
+    </div>
+</body>
+
+</html>
