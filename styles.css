@@ -38,7 +38,7 @@ h1 {
     height: auto;
     display: block;
     /* Permet de traiter l'image comme un bloc */
-    margin: 0 auto;
+    margin: 20px auto;
     /* Mettre la marge à "0" sur les côtés gauche et droit, et "auto" en haut et en bas pour centrer l'image horizontalement */
 
 }
